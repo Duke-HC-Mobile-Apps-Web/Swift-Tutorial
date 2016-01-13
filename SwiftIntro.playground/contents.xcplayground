@@ -4,6 +4,7 @@
         <page name='Table of Contents'/>
         <page name='Constants and Variables'/>
         <page name='Operators'/>
+        <page name='Strings'/>
         <page name='License'/>
     </pages>
 </playground>
