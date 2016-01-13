@@ -1,6 +1,7 @@
 /*:
-[Table of Contents](Table%20of%20Contents) | [Previous](@previous) | [Next](@next)
+# Constants and Variables
 ****
+[Table of Contents](Table%20of%20Contents) | [Previous](@previous) | [Next](@next)
 */
 
 //Created by Davis Gossage on 1/7/16.
