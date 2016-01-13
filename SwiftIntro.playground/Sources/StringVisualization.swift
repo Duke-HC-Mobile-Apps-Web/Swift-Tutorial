@@ -1,9 +1,7 @@
 import UIKit
 
 //taken from Swift Standard Library playground
-
-/*:
-# License
+/*
 IMPORTANT:  This Apple software is supplied to you by Apple
 Inc. ("Apple") in consideration of your agreement to the following
 terms, and your use, installation, modification or redistribution of

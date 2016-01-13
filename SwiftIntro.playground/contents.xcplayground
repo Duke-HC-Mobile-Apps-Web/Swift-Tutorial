@@ -5,6 +5,7 @@
         <page name='Constants and Variables'/>
         <page name='Operators'/>
         <page name='Strings'/>
+        <page name='Types'/>
         <page name='License'/>
     </pages>
 </playground>
