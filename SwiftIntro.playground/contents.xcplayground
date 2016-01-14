@@ -6,6 +6,7 @@
         <page name='Operators'/>
         <page name='Strings'/>
         <page name='Types'/>
+        <page name='Collections'/>
         <page name='License'/>
     </pages>
 </playground>
