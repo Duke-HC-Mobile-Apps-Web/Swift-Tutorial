@@ -4,7 +4,6 @@
 [Table of Contents](Table%20of%20Contents) | [Previous](@previous) | [Next](@next)
 */
 import Foundation
-
 /*:
 ## Arrays
 ****
@@ -48,6 +47,7 @@ intArray.insert(2, atIndex: 0)
 intArray.insert(4, atIndex: 1)
 intArray.insert(1, atIndex: 0)
 intArray.insert(3, atIndex: 2)
+
 
 //:Arrays can be iterated over using a for-in loop
 

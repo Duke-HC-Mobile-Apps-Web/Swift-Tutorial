@@ -42,7 +42,7 @@ hello.appendContentsOf(" I think it is.")
 
 
 /*:
-# Interpolation
+## Interpolation
 ****
 Interpolation allows for the forming of strings from any set of variables or constants.
 */
@@ -66,6 +66,21 @@ Anyway... back to interpolation
 let date = NSDate()
 
 let dateGreeting = "Hi! The current date is \(date)"    //You may notice the date is not printing in the most readable way (at least in the US).  This could be fixed using a class called NSDateFormatter.
+
+/*:
+## Formatted Strings
+Occasionally it is necessary to use the `format` method of `String` instead of using interpolation.
+*/
+
+let myDouble = 2.2
+
+//:We format strings by initializing a `String` and calling the `format` method.  Variables are set off with a '%' and the type ('Int` = d, `Double` = f, `String` = s)
+
+let formattedString = String(format: "My double is : %f", myDouble)
+
+//:Formatted strings become useful if we want to display a certain number of digits
+
+let stringWithDigits = String(format: "My double is : %.2f", myDouble)
 
 /*:
 ****

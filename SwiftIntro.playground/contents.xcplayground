@@ -7,6 +7,11 @@
         <page name='Strings'/>
         <page name='Types'/>
         <page name='Collections'/>
+        <page name='Control Flow'/>
+        <page name='Functions'/>
+        <page name='Closures'/>
+        <page name='Object Types'/>
+        <page name='Inheritance'/>
         <page name='License'/>
     </pages>
 </playground>
