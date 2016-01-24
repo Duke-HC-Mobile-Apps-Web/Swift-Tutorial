@@ -18,6 +18,30 @@ let d = 10.0 / 2.5  //division
 let e = 9 % 4       //modulo (remainder)
 
 /*:
+More advanced operations and values lie within the Foundation framework.
+
+By convention these import statements appear at the top of .swift files.
+*/
+
+import Foundation
+
+let p = pow(2.0, 4.0)
+
+/*:
+Note how the operators are defined for the operations above using Quick Help
+
+Say we wanted to define a new operator ^^ to call the pow function above.
+*/
+
+infix operator ^^ { }
+func ^^ (radix: Int, power: Int) -> Int {
+    return Int(pow(Double(radix), Double(power)))
+}
+
+let po = 2 ^^ 4
+
+
+/*:
 ## Incrementing and Decrementing
 ****
 Incrementing and decrementing looks similar to other languages, with an important difference
@@ -86,6 +110,17 @@ for index in m{
     print(index)    //This is called once for each number in range m, where index is the number
     //The box above shows the history of the index variable
 }
+
+/*:
+Try it:
+
+Call the method `callMeX100` 100 times, passing Ints 0 through 99.
+*/
+
+let verifier = OperatorsVerifier()
+
+verifier.callMeX100(0)
+
 
 
 /*:

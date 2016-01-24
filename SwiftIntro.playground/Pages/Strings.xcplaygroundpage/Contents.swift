@@ -10,7 +10,7 @@ let str = "Hello, playground"
 
 visualize(str)
 
-//: A `Character` includes special characters and emojis
+//: A `Character` may include special characters and emojis
 
 let emoj = "Héllo, 🇺🇸laygr😮und!"
 
@@ -53,9 +53,6 @@ The compiler recognizes any variables set off with a backslash and surrounded by
 let username = "Davis"
 let interpolatedGreeting = "Hi there \(username).  Beautiful day isn't it?"
 
-//:We're now going to import the `Foundation` framework in order to use some base classes, no one panic...
-import Foundation
-
 /*:
 We can get the current date by instantiating an `NSDate` class, part of the `Foundation` framework
 
@@ -63,6 +60,8 @@ This is an example of the Swift language and the legacy NS (NeXTSTEP) classes (m
 
 Anyway... back to interpolation
 */
+import Foundation
+
 let date = NSDate()
 
 let dateGreeting = "Hi! The current date is \(date)"    //You may notice the date is not printing in the most readable way (at least in the US).  This could be fixed using a class called NSDateFormatter.
@@ -81,6 +80,18 @@ let formattedString = String(format: "My double is : %f", myDouble)
 //:Formatted strings become useful if we want to display a certain number of digits
 
 let stringWithDigits = String(format: "My double is : %.2f", myDouble)
+
+/*:
+Try it.  Build a string with 15 digits of pi that looks like "The first 15 digits of pi are 3.14..."
+
+Send the string to the `printPi` function to verify your answer
+*/
+
+let verifier = StringVerifier()
+
+var initialStatement = "The first 15 digits of pi are"
+
+verifier.printPi(initialStatement)
 
 /*:
 ****

@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>name</key>
+		<string>Aaron Liberatore</string>
+		<key>favoriteLanguage</key>
+		<string>Python</string>
+	</dict>
+	<dict>
+		<key>name</key>
+		<string>Jackson Eckert</string>
+		<key>favoriteLanguage</key>
+		<string>Java</string>
+	</dict>
+	<dict>
+		<key>name</key>
+		<string>Alan Yan</string>
+		<key>favoriteLanguage</key>
+		<string>JavaScript</string>
+	</dict>
+	<dict>
+		<key>name</key>
+		<string>Arjun Devarajan</string>
+		<key>favoriteLanguage</key>
+		<string>Python</string>
+	</dict>
+	<dict>
+		<key>name</key>
+		<string>Stephanie Engle</string>
+		<key>favoriteLanguage</key>
+		<string>HTML</string>
+	</dict>
+	<dict>
+		<key>name</key>
+		<string>David Boyer</string>
+		<key>favoriteLanguage</key>
+		<string>Java</string>
+	</dict>
+	<dict>
+		<key>name</key>
+		<string>Joseph Jacob</string>
+		<key>favoriteLanguage</key>
+		<string>Swift</string>
+	</dict>
+	<dict>
+		<key>name</key>
+		<string>Andrew Bihl</string>
+		<key>favoriteLanguage</key>
+		<string>Java</string>
+	</dict>
+	<dict>
+		<key>name</key>
+		<string>Daniel Chai</string>
+		<key>favoriteLanguage</key>
+		<string>Java</string>
+	</dict>
+	<dict>
+		<key>name</key>
+		<string>Billy Wan</string>
+		<key>favoriteLanguage</key>
+		<string>Java</string>
+	</dict>
+	<dict>
+		<key>name</key>
+		<string>Will Rollins</string>
+		<key>favoriteLanguage</key>
+		<string>Java</string>
+	</dict>
+</array>
+</plist>

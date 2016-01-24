@@ -12,7 +12,7 @@ import UIKit
 `sort` is an array method which uses closures to allow for custom sorting of elements.
 */
 
-//:Here is a long winded way of representing a closure.  We pass our `sortingFunction` into the sort method
+//:Here is a long winded way of representing a closure.  We pass our `sortingFunction` into the sort method.  In the case of `sort`, the closure expression takes two strings for comparison.
 
 var unorderedStrings = ["A","D","B","C"]
 
@@ -54,7 +54,7 @@ moneyAmountFloats.map {
 
 
 /*:
-## Asynchronous methods
+## Asynchronous / callback methods
 ****
 A method that is called and sends a value after some period of time while the program continues executing.
 
