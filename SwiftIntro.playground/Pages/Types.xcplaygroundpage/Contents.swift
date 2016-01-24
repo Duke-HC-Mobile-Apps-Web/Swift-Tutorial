@@ -25,7 +25,9 @@ var myNum = 30                          //easy enough
 var minNum = Int.min
 var maxNum = Int.max
 
-var howBigAreInts = pow(2.0, 64.0) / 2  //So an Int is 64-bit signed.  Swift only runs on 64-bit machines.
+var howBigAreInts = pow(2.0, 64.0) / 2  //So an Int is 64-bit signed.
+
+var my32Bit = Int32.max                 //32-bit, 16-bit, 8-bit offered for compatability, rarely used
 
 /*:
 ## Double
@@ -33,7 +35,7 @@ var howBigAreInts = pow(2.0, 64.0) / 2  //So an Int is 64-bit signed.  Swift onl
 A `Double` represents a floating point number to a precision of about 15 decimal places.
 */
 
-var myDouble = M_PI                     //Sidenote, most Math shortcuts are found by typing 'M_'
+var myDouble = M_PI                     //Sidenote, most Math shortcuts are found by typing 'M_' (foundation.framework must be imported)
 
 //: We can go back and forth from Ints to Doubles as needed
 
@@ -42,6 +44,12 @@ var myInt = Int(myDouble)
 //: But precision is lost
 
 var backToDouble = Double(myInt)
+
+/*:
+Try it: Using knowledge of operators and types
+*/
+
+
 
 /*:
 ****

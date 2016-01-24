@@ -78,6 +78,11 @@ switch choice{
         print("Default option.")
 }
 
+
+/*:
+Try it: print the numbers 1 (skip 1) 2 (skip 2) 4 (skip 3) 7... to 1000
+*/
+
 /*:
 ****
 [Table of Contents](Table%20of%20Contents) | [Previous](@previous) | [Next](@next)

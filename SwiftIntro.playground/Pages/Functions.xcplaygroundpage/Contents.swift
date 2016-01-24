@@ -16,22 +16,44 @@ sayHello()
 
 //:Add arguments with the `variableName` : `Type` pattern
 
-func sayHello(personName : String){
-    print("hello, \(personName)")
+func sayHello(name : String){
+    print("Hello \(name)")
 }
 
-sayHello("Davis")
+sayHello("World")
 
 //:Functions can return values
 
-func buildHelloString(personName : String) -> String{
-    return "hello, \(personName)"
+func buildHelloString(name : String) -> String{
+    return "Hello \(name)"
 }
 
-print(buildHelloString("Davis"))
+let returnedValue = buildHelloString("World")
 
 /*:
-When calling functions with multiple parameters, parameter names beyond the first must be specified.
+## Function Signatures
+****
+Every function has a unique `signature` or `type`, meaning they can be overloaded
+*/
+
+
+func sameName() -> String{
+    //this function signature is () -> String
+    return "1st called"
+}
+
+func sameName(name: String) -> String{
+    //this function signature is (String) -> String
+    return "2nd called"
+}
+
+//: Which function gets called depends on which parameters are used
+
+sameName()
+
+sameName("")
+/*:
+When calling functions with multiple parameters, parameter names beyond the first are externalized by default.
 
 This convention is enforced as of Swift 2.0
 */
@@ -45,6 +67,12 @@ func say(s: String, times: Int){
 say("woof", times: 4)
 //uncomment to see enforcement
 //say("woof", 4)
+
+
+/*:
+Try it: write a method that takes an array of artists represented as dictionaries and prints their names
+*/
+
 
 
 /*:

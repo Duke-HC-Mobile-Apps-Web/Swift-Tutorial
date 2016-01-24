@@ -82,6 +82,21 @@ for pair in myDog{
     print(pair)                 //print the pair
     print(pair.1)               //only print the value
 }
+
+
+/*:
+Try it: create an array of these artists, each represented as a dictionary containing their name and number of grammy nominations
+*/
+/*
+
+Jay-Z               64
+Beyoncé             53
+Kanye West          53
+U2                  47
+Bruce Springsteen   46
+
+*/
+
 /*:
 ****
 [Table of Contents](Table%20of%20Contents) | [Previous](@previous) | [Next](@next)

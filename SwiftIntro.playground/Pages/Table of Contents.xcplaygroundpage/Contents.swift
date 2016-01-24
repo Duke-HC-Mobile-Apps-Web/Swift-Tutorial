@@ -3,7 +3,7 @@
 
 
 - Sections\
-• [Constants and Variables](Constants%20and%20Variables)\
+• [The Basics](Constants%20and%20Variables)\
 • [Operators](Operators)\
 • [Strings](Strings)\
 • [Types](Types)\
