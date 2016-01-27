@@ -45,10 +45,12 @@ print("My dog is a \(myDogWithVal.rawValue).")
 ****
 */
 
-import Foundation
+//: We define our class with the token `class` then the name of the class and then a curly bracket.  The curly brackets defines the classes scope.
 
 class Dog {
-//:These are class properties, they're declared at the top level.  They are the constants and variables associated with the class
+    
+//:These are class properties, they're declared at the top level.  They are the constants and variables associated with the class.  These are `public` by default, but can have a `private` access modifier.  Private properties can only be modified from inside this classes scope.
+   
     var name: String
     var age: Int
     
@@ -62,12 +64,12 @@ class Dog {
     
 //:This is the `init` method, it is called when objects are instantiated.  In this case we require the dog name and age to be passed in.
     init(name: String, age: Int) {
-//:Uh oh, we have a naming conflict here.  The variables getting passed in are the same as our property names.  The implicit `self` property refers to the class instance, we can use it to set our properties.
+//:The implicit `self` property refers to the specific class instance, we can use it to set our properties.
         self.name = name
         self.age = age
     }
     
-//:Methods give our class behavior
+//:Methods give our class behavior.  A method is simply a function that lies within the scope of a class.
     func greet() -> String {
         return "Hello human, my name is \(name)"
     }

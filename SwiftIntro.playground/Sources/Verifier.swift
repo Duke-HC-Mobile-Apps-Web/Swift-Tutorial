@@ -23,7 +23,7 @@ public class StringVerifier{
     }
     
     public func printPi(piString: String) -> String{
-        //no cheating...
+        //nice try, but no cheating...
         if (piString.hashValue == -4799450061154050169){
             return "Complete"
         }

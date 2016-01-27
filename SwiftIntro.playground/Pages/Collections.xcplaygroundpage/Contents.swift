@@ -61,12 +61,14 @@ for num in intArray{
 An unordered collection of key value pairs.  Same as a `Map` in Java
 */
 
-var myDog = ["name":"Winston","species":"golden retriever","age":"twelve"]
+var myDog = ["name":"Rufus","species":"golden retriever","age":"twelve"]
 
 //:Retrieve values with subscripts ([key])
 let dogName = myDog["name"]
 
 myDog.removeValueForKey("age")
+
+myDog
 
 //:Update values with subscripts ([key]) or the `updateValue` method
 

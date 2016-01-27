@@ -24,8 +24,8 @@ unorderedStrings.sort(sortingFunction)
 
 //:Here is how this is usually seen, note that the sorting closure, or `sortingFunction` from before is inline using closure expression syntax.  This time we'll reverse sort the list
 
-unorderedStrings.sort({ (a : String, b : String) -> Bool in
-    return b < a
+unorderedStrings.sort({ (s1 : String, s2 : String) -> Bool in
+    return s2 < s1
 })
 
 /*:
@@ -46,9 +46,9 @@ moneyAmounts.map {
 
 //:Let's do something a little more interesting using `float` and formatted strings
 
-let moneyAmountFloats = [4.5,2,1.25,5.5]
+let moneyAmountDoubles = [4.5,2,1.25,5.5]
 
-moneyAmountFloats.map {
+moneyAmountDoubles.map {
     String(format: "$%.2f", $0)
 }
 

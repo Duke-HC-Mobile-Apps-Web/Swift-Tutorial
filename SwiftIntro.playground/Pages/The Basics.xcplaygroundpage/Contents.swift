@@ -25,7 +25,7 @@ nothing between the /* and */ is executed as code
 Constants are declared with the let token.  They are immutable, meaning they can't be modified after decleration.
 */
 
-let myString = "Hello playground"
+let myString = "Hello playground";          //semicolons at the end of lines are optional
 
 /*:
 We can't change the value of `string` since it was declared as a constant with let
@@ -73,17 +73,19 @@ var explicitString: String = "This is definitely a string"
 
 var thisIsAString: String
 
-
 /*:
-Objects
+## Objects
 ****
 In Swift, everything is an object.  Messages are passed to objects with dot notation.
-
-Every noun is a
 */
 
 let x = 2.successor()            //since Ints are objects, this is valid
 
+/*:
+Try it: Using the documentation for `String`, figure out how to pass a message to the string to test whether the `String` ends with the word dog.
+*/
+
+var stringTest = "this string ends with the word dog"
 
 /*:
 ****

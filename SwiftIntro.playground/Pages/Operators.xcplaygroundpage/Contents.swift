@@ -17,6 +17,10 @@ let d = 10.0 / 2.5  //division
 
 let e = 9 % 4       //modulo (remainder)
 
+//: Chaining is fine, order of operations is followed
+
+let oo = (2 * 3) / 2 + 4
+
 /*:
 More advanced operations and values lie within the Foundation framework.
 
@@ -33,13 +37,13 @@ Note how the operators are defined for the operations above using Quick Help
 Say we wanted to define a new operator ^^ to call the pow function above.
 */
 
+//This is cool to see, not necessary to know.
 infix operator ^^ { }
-func ^^ (radix: Int, power: Int) -> Int {
-    return Int(pow(Double(radix), Double(power)))
+func ^^ (radix: Double, power: Double) -> Double {
+    return pow(radix, power)
 }
 
 let po = 2 ^^ 4
-
 
 /*:
 ## Incrementing and Decrementing
@@ -120,8 +124,6 @@ Call the method `callMeX100` 100 times, passing Ints 0 through 99.
 let verifier = OperatorsVerifier()
 
 verifier.callMeX100(0)
-
-
 
 /*:
 ****
