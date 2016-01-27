@@ -68,5 +68,143 @@
 		<key>favoriteLanguage</key>
 		<string>Java</string>
 	</dict>
+	<dict>
+		<key>name</key>
+		<string>Will Rollins</string>
+		<key>favoriteLanguage</key>
+		<string>Java</string>
+	</dict>
+	<dict>
+		<key>name</key>
+		<string>Trip Goff</string>
+		<key>favoriteLanguage</key>
+		<string>Python</string>
+	</dict>
+	<dict>
+		<key>name</key>
+		<string>Cameryn Steiger</string>
+		<key>favoriteLanguage</key>
+		<string>JavaScript</string>
+	</dict>
+	<dict>
+		<key>name</key>
+		<string>Joyce Choi</string>
+		<key>favoriteLanguage</key>
+		<string>None</string>
+	</dict>
+	<dict>
+		<key>name</key>
+		<string>Krista Opsahl-Ong</string>
+		<key>favoriteLanguage</key>
+		<string>Java</string>
+	</dict>
+	<dict>
+		<key>name</key>
+		<string>Rica Zhang</string>
+		<key>favoriteLanguage</key>
+		<string>None</string>
+	</dict>
+	<dict>
+		<key>name</key>
+		<string>Andy Chen</string>
+		<key>favoriteLanguage</key>
+		<string>Python</string>
+	</dict>
+	<dict>
+		<key>name</key>
+		<string>Lucy Zhang</string>
+		<key>favoriteLanguage</key>
+		<string>None</string>
+	</dict>
+	<dict>
+		<key>name</key>
+		<string>Jessica Reese</string>
+		<key>favoriteLanguage</key>
+		<string>Python</string>
+	</dict>
+	<dict>
+		<key>name</key>
+		<string>Bill Xiong</string>
+		<key>favoriteLanguage</key>
+		<string>C</string>
+	</dict>
+	<dict>
+		<key>name</key>
+		<string>Katherine Zhou</string>
+		<key>favoriteLanguage</key>
+		<string>None</string>
+	</dict>
+	<dict>
+		<key>name</key>
+		<string>Sam Goodman</string>
+		<key>favoriteLanguage</key>
+		<string>Java</string>
+	</dict>
+	<dict>
+		<key>name</key>
+		<string>Jerry Chang</string>
+		<key>favoriteLanguage</key>
+		<string>Java</string>
+	</dict>
+	<dict>
+		<key>name</key>
+		<string>Yumin Zhang</string>
+		<key>favoriteLanguage</key>
+		<string>Java</string>
+	</dict>
+	<dict>
+		<key>name</key>
+		<string>Ethan Lampert</string>
+		<key>favoriteLanguage</key>
+		<string>Python</string>
+	</dict>
+	<dict>
+		<key>name</key>
+		<string>Minyoung Ryoo</string>
+		<key>favoriteLanguage</key>
+		<string>Matlab</string>
+	</dict>
+	<dict>
+		<key>name</key>
+		<string>Bryan Wang</string>
+		<key>favoriteLanguage</key>
+		<string>Java</string>
+	</dict>
+	<dict>
+		<key>name</key>
+		<string>Thomas Li</string>
+		<key>favoriteLanguage</key>
+		<string>Java</string>
+	</dict>
+	<dict>
+		<key>name</key>
+		<string>Ben Reisner</string>
+		<key>favoriteLanguage</key>
+		<string>Python</string>
+	</dict>
+	<dict>
+		<key>name</key>
+		<string>Kristianna Elbert</string>
+		<key>favoriteLanguage</key>
+		<string>JavaScript</string>
+	</dict>
+	<dict>
+		<key>name</key>
+		<string>Mitchell Kim</string>
+		<key>favoriteLanguage</key>
+		<string>Java</string>
+	</dict>
+	<dict>
+		<key>name</key>
+		<string>Nicholas Danyluk</string>
+		<key>favoriteLanguage</key>
+		<string>Matlab</string>
+	</dict>
+	<dict>
+		<key>name</key>
+		<string>Jihane Bettahi</string>
+		<key>favoriteLanguage</key>
+		<string>Python</string>
+	</dict>
 </array>
 </plist>
