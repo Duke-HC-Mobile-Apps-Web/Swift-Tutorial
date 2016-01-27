@@ -3,13 +3,17 @@
 
 
 - Sections\
-• [The Basics](Constants%20and%20Variables)\
+• [The Basics](The%20Basics)\
 • [Operators](Operators)\
 • [Strings](Strings)\
 • [Types](Types)\
 • [Collections](Collections)\
 • [Control Flow](Control%20Flow)\
-• [Closures](Closures)
+• [Functions](Functions)\
+• [Closures](Closures)\
+• [Object Types](Object%20Types)\
+• [Inheritance](Inheritance)\
+• [Practice](Practice)
 - [License](License)
 ****
 [Next](@next)

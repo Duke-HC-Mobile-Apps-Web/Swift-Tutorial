@@ -1,6 +1,6 @@
 import Foundation
 
-public class Student: Hashable {
+public class Student {
     public var name: String = ""
     public var favoriteLanguage: String = ""
     
@@ -22,20 +22,13 @@ public class Student: Hashable {
         }
     }
     
-    public var hashValue: Int{
-        return name.hashValue ^ favoriteLanguage.hashValue
+    init(){
+        //empty init method is necessary for the RosterBuilder class, which builds Student objects from text
     }
     
-}
-
-public func ==(lhs: Student, rhs: Student) -> Bool {
-    return lhs.name == rhs.name && lhs.favoriteLanguage == rhs.favoriteLanguage
-}
-
-public func computeHash(roster: [Student]) -> Double{
-    var hash = 0.0
-    for student in roster{
-        hash += Double(student.hashValue)
+    init(name: String, favoriteLanguage: String){
+        self.name = name
+        self.favoriteLanguage = favoriteLanguage
     }
-    return hash
+    
 }

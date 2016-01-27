@@ -25,9 +25,9 @@ var myNum = 30                          //easy enough
 var minNum = Int.min
 var maxNum = Int.max
 
-var howBigAreInts = pow(2.0, 64.0) / 2  //So an Int is 64-bit signed.
+var howBigAreInts = pow(2.0, 64.0) / 2  //So an Int is 64-bit signed.  Swift picked this automatically since we are targeting 64-bit devices.
 
-var my32Bit = Int32.max                 //32-bit, 16-bit, 8-bit offered for compatability, rarely used
+var my32Bit = Int32.max                 //32-bit, 16-bit, 8-bit offered for compatability
 
 /*:
 ## Double
@@ -46,9 +46,12 @@ var myInt = Int(myDouble)
 var backToDouble = Double(myInt)
 
 /*:
-Try it: Using knowledge of operators and types
+Try it: Using knowledge of operators and types, only print out the statement below if `aNum` is even and between 500 and 1000.
 */
 
+var aNum = 550
+
+print(aNum)
 
 
 /*:

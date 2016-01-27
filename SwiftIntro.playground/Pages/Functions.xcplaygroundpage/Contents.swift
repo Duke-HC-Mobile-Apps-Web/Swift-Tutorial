@@ -51,7 +51,8 @@ func sameName(name: String) -> String{
 
 sameName()
 
-sameName("")
+sameName("a string")
+
 /*:
 When calling functions with multiple parameters, parameter names beyond the first are externalized by default.
 

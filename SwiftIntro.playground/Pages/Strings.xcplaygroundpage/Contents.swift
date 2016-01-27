@@ -57,8 +57,6 @@ let interpolatedGreeting = "Hi there \(username).  Beautiful day isn't it?"
 We can get the current date by instantiating an `NSDate` class, part of the `Foundation` framework
 
 This is an example of the Swift language and the legacy NS (NeXTSTEP) classes (many of which are still written in Objective-C) working together.
-
-Anyway... back to interpolation
 */
 import Foundation
 
