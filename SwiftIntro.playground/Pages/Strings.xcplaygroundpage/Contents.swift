@@ -19,6 +19,7 @@ visualize(emoj)
 //: We can break this string into its `Character`(s) with a for-in loop
 
 for char in emoj.characters {
+    //print is a global function which prints to the console.  since we're in the playground that is less clear as values are always shown
     print(char)
 //remember that this box shows the history of the value of char
 }

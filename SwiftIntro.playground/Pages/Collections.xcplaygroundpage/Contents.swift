@@ -68,7 +68,7 @@ let dogName = myDog["name"]
 
 myDog.removeValueForKey("age")
 
-myDog
+print(myDog)
 
 //:Update values with subscripts ([key]) or the `updateValue` method
 
@@ -76,7 +76,7 @@ myDog["age"] = "thirteen"
 
 myDog.updateValue("fourteen", forKey: "age")            //Note that this returns the old value
 
-myDog
+print(myDog)
 
 //: Dictionaries entries can be iterated over using a for-in loop.  Each entry is a 2 item collection (key, value).
 
