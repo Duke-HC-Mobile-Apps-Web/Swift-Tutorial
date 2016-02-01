@@ -67,7 +67,7 @@ var explicitString: String = "This is definitely a string"
 
 //:We can't implicitly type without an initial value.  Uncomment to see the error
 
-//var isThisAString
+//var isThisAString: String
 
 //:So any variable that we are going to be setting later needs an explicit type
 
@@ -86,6 +86,8 @@ Try it: Using the documentation for `String`, figure out how to pass a message t
 */
 
 var stringTest = "this string ends with the word dog"
+
+stringTest.hasSuffix("dog")
 
 /*:
 ****

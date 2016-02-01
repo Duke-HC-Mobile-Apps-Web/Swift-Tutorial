@@ -99,6 +99,16 @@ Bruce Springsteen   46
 
 */
 
+//let emptyDict = [String: Any]()
+
+let jayZ = ["name":"Jay-Z", "nominations":64]
+let beyonce = ["name":"Beyoncè", "nominations":53]
+let kanye = ["name":"Kanye West", "nominations":53]
+let u2 = ["name":"U2", "nominations":47]
+let bruce = ["name":"Bruce Springsteen", "nominations":46]
+
+let array = [jayZ, beyonce,kanye,u2,bruce]
+
 /*:
 ****
 [Table of Contents](Table%20of%20Contents) | [Previous](@previous) | [Next](@next)

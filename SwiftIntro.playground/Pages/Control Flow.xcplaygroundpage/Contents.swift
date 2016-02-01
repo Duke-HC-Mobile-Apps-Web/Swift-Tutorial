@@ -63,7 +63,7 @@ if (condition){                         //using a variable condition makes the w
 Consider a value and compare it across possible values
 */
 
-let choice = 1;
+let choice = 0;
 
 switch choice{
     case 0:
@@ -83,6 +83,11 @@ switch choice{
 Try it: print the numbers 1 (skip 1) 2 (skip 2) 4 (skip 3) 7... to 1000
 */
 
+var counter = 0
+for (var i = 1; i < 1000; i += counter){
+    print(i)
+    counter++
+}
 /*:
 ****
 [Table of Contents](Table%20of%20Contents) | [Previous](@previous) | [Next](@next)

@@ -16,7 +16,7 @@ sayHello()
 
 //:Add arguments with the `variableName` : `Type` pattern
 
-func sayHello(name : String){
+func sayHello(name: String){
     print("Hello \(name)")
 }
 
@@ -67,14 +67,26 @@ func say(s: String, times: Int){
 
 say("woof", times: 4)
 //uncomment to see enforcement
-//say("woof", 4)
+say("woof", times: 4)
 
 
 /*:
 Try it: write a method that takes an array of artists represented as dictionaries and prints their names
 */
 
+//using artists from before
 
+let jayZ = ["name":"Jay-Z", "nominations":64]
+let beyonce = ["name":"Beyoncè", "nominations":53]
+let kanye = ["name":"Kanye West", "nominations":53]
+let u2 = ["name":"U2", "nominations":47]
+let bruce = ["name":"Bruce Springsteen", "nominations":46]
+
+let array = [jayZ, beyonce,kanye,u2,bruce]
+
+for artist in array{
+    print(artist["name"]!)
+}
 
 /*:
 ****

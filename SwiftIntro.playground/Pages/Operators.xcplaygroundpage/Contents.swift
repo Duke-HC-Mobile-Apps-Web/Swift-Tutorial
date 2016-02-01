@@ -49,6 +49,8 @@ let po = 2 ^^ 4
 ## Incrementing and Decrementing
 ****
 Incrementing and decrementing looks similar to other languages, with an important difference
+
+Note: The ++ and -- operators have been deprecated and will not be available in Swift 3.0
 */
 
 var f = 1
@@ -123,7 +125,9 @@ Call the method `callMeX100` 100 times, passing Ints 0 through 99.
 
 let verifier = OperatorsVerifier()
 
-verifier.callMeX100(0)
+for index in 0..<100{
+    verifier.callMeX100(index)
+}
 
 /*:
 ****

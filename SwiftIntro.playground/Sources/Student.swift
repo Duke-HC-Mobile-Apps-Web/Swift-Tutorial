@@ -26,7 +26,7 @@ public class Student {
         //empty init method is necessary for the RosterBuilder class, which builds Student objects from text
     }
     
-    init(name: String, favoriteLanguage: String){
+    public init(name: String, favoriteLanguage: String){
         self.name = name
         self.favoriteLanguage = favoriteLanguage
     }

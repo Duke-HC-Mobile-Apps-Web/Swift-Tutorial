@@ -16,7 +16,7 @@ enum Dogs {
     case Boxer
 }
 
-let myDog = Dogs.Golden
+let myDog = Dogs.Collie
 
 switch myDog{
     case Dogs.Golden:
@@ -53,6 +53,7 @@ class Dog {
    
     var name: String
     var age: Int
+    let numLegs: Int = 4
     
 //:Lets use enums to represent the state of our dog
     enum dogState{

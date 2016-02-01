@@ -14,6 +14,7 @@ visualize(str)
 
 let emoj = "Héllo, 🇺🇸laygr😮und!"
 
+
 visualize(emoj)
 
 //: We can break this string into its `Character`(s) with a for-in loop
@@ -85,12 +86,17 @@ Try it.  Build a string with 15 digits of pi that looks like "The first 15 digit
 
 Send the string to the `printPi` function to verify your answer
 */
+import Foundation
+
+let pi = M_PI
 
 let verifier = StringVerifier()
 
 var initialStatement = "The first 15 digits of pi are"
 
-verifier.printPi(initialStatement)
+let formattedStatement = String(format: "%@ %.15f", initialStatement, pi)
+
+verifier.printPi(formattedStatement)
 
 /*:
 ****

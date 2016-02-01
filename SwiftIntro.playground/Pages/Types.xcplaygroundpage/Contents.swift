@@ -51,7 +51,9 @@ Try it: Using knowledge of operators and types, only print out the statement bel
 
 var aNum = 550
 
-print(aNum)
+if (aNum >= 500 && aNum <= 1000 && aNum % 2 == 0){
+    print(aNum)
+}
 
 
 /*:
